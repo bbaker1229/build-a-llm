@@ -73,7 +73,7 @@ print(ids)
 print(tokenizer.decode(ids))
 
 text = "Hello, do you like tea?"
-print(tokenizer.encode(text))  # This errors because "Hello" is not in the vocab
+# print(tokenizer.encode(text))  # This errors because "Hello" is not in the vocab
 
 # Adding special context tokens
 all_tokens = sorted(list(set(preprocessed)))

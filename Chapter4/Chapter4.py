@@ -217,7 +217,7 @@ model_with_shortcut = ExampleDeepNeuralNetwork(
 print_gradients(model_with_shortcut, sample_input)
 
 # The Transformer Block
-from ..Chapter3.Chapter3 import MultiHeadAttention
+from Chapter3.Chapter3 import MultiHeadAttention
 
 class TransformerBlock(nn.Module):
     def __init__(self, cfg):
