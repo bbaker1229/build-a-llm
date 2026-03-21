@@ -6,6 +6,9 @@ dist/
 wheels/
 *.egg-info
 
+# Trained Models
+*.pth
+
 # Virtual environments
 .venv
 
